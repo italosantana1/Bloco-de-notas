@@ -1,0 +1,220 @@
+.loginPage , .registerPage    {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    padding: 5px;
+    box-sizing: border-box;
+}
+img{
+    width: 50%;
+    height: 100%;    
+}
+.loginInfo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 25%;
+}
+.loginInfo :nth-child(3){
+    background-color: green;
+    width: 80%;
+    height: 70px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.loginInfo :nth-child(4){
+    background-color: #fff;
+    width: 80%;
+    height: 70px;
+    color: green;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.inputs {
+    width: 80%;
+    display: flex;
+    height: 70px;
+    margin-bottom: 35px;
+}
+.inputs input{
+    width: 50%;
+    border: 1px solid gray;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.loginInfo h1{
+    font-family: 'Saira Condensed', sans-serif;
+    color: #686363;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.inputs input::placeholder{
+    padding-left: 20px;
+}
+
+/*******************************************************************************************/
+.registerInfo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 20%;
+}
+.inputsColumn{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px; 
+}
+.inputsColumn input{
+    width: 50%;
+    height: 70px;
+    border: 1px solid gray;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.registerInfo h1{
+    font-family: 'Saira Condensed', sans-serif;
+    color: #686363;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.registerInfo h3{
+    font-family: 'Saira Condensed', sans-serif;
+    color: #686363;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.registerInfo button{
+    background-color: green;
+    width: 80%;
+    height: 70px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 15px;  
+}
+.inputsColumn input::placeholder{
+    padding-left: 20px;
+}
+
+/**********************************************************************************/
+.tasks{
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.tasks h1{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.inputsTasks{
+    display: flex;
+    margin-bottom: 30px;
+}
+.inputsTasks div{
+    display: flex;
+    width: 100%;
+}
+.description {
+    border: 1px solid gray;
+    border-radius: 3px;
+    outline: none;
+    width: 300px;
+    margin-right: 30px;
+}
+.details{
+    height:  30px;
+    border: 1px solid gray;
+    border-radius: 3px 0 0 3px;
+    width: 500px;
+    outline: none;
+}
+.details::placeholder, .description::placeholder{
+    color: gray;
+}
+.inputsTasks button{
+    background-color: rgb(77, 40, 211);
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0 3px 3px 0;
+    width: 90px;
+}
+.tasksList{
+    width: 890px;
+    border-top:1px solid #c0bebe;
+    margin-left: -60px;
+}
+.tasksList div{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.tasksList div div{
+    width: 140px;
+}
+.tasksInfo{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 15px;
+    border-bottom :1px solid #c0bebe;
+}
+span{
+    display: block;
+    display: flex;
+    height: 30px;
+}
+.remove{
+    background-color: red;
+    margin-right: 8px;
+}
+.edit{
+    background-color: rgb(39, 177, 39);
+}
+.remove, .edit{
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: #ffffff;
+}
+.tasksClient {
+    border-bottom :1px solid #c0bebe;
+}
+button{
+    cursor: pointer;
+}
+.title {
+    width: 820px;
+    margin-left: -100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title button{
+    background-color: rgb(212, 89, 89);
+    color: #ffffff;
+    outline: none;
+    border-radius: 4px;
+    border: 5px solid rgb(212, 89, 89);
+}
